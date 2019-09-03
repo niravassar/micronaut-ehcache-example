@@ -4,6 +4,10 @@ micronaut:
   caches:
     my-cache:
       maximumSize: 20
+#ehcache:
+#  caches:
+#    my-cache:
+#      enabled: true
 ---
 #Datasource
 hibernate:
