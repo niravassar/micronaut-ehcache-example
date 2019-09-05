@@ -1,13 +1,10 @@
 micronaut:
   application:
     name: micronaut-ehcache-example
+ehcache:
   caches:
     my-cache:
-      maximumSize: 20
-#ehcache:
-#  caches:
-#    my-cache:
-#      enabled: true
+      enabled: true
 ---
 #Datasource
 hibernate:
